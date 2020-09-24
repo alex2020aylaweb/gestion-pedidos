@@ -13,7 +13,6 @@ rutina una vez que ya está inicializado el proyecto del repositorio:
 
 2. añadir los archivos a git uno a uno o todos a la vez
 git add --all
-git status
 
 3. git commit -m 'agregar aqui un comentario obligatoriamente'
 
