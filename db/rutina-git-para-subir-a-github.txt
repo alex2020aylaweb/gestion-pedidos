@@ -1,0 +1,28 @@
+rutina inicializar proyecto de dos formas:
+
+A) desde local (colocándonos dentro de la carpeta)
+git init
+git add --all
+
+B) desde remoto debe estar hecho e inicializado el repositorio en remoto:
+git clone url.git https://direccion-que-nos-da-git.com
+=========================================
+rutina una vez que ya está inicializado el proyecto del repositorio:
+
+1. git status
+
+2. añadir los archivos a git uno a uno o todos a la vez
+git add --all
+git status
+
+3. git commit -m 'agregar aqui un comentario obligatoriamente'
+
+4. subir a remoto poniendo el nombre del remoto  'origin' y la rama que queremos
+git push origin master
+
+=========================================
+rutina para actualizar o modificar el proyecto:
+
+git pull (si no tenemos lios)
+git pull origin master (si tenemos lios desde github)
+
